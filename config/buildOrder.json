@@ -1,0 +1,38 @@
+[
+	"blob-to-hash",
+
+	"blob-to-sha1",
+	"blob-to-sha256",
+	"blob-to-sha384",
+	"blob-to-sha512",
+
+
+	"data-to-hash",
+
+	"data-to-md4",
+	"data-to-md5",
+
+	"data-to-sha1",
+	"data-to-sha256",
+	"data-to-sha384",
+	"data-to-sha512",
+
+
+	"path-to-hash",
+
+	"path-to-md4",
+	"path-to-md5",
+
+	"path-to-sha1",
+	"path-to-sha256",
+	"path-to-sha384",
+	"path-to-sha512",
+
+
+	"file-to-hash",
+
+	"file-to-sha1",
+	"file-to-sha256",
+	"file-to-sha384",
+	"file-to-sha512"
+]

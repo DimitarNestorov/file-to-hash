@@ -1,0 +1,35 @@
+{
+	"name": "file-to-sha384",
+	"version": "0.0.1",
+	"description": "Calculates a SHA-384 of a given file. Single package for the browser and node.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": "git@github.com:dimitarnestorov/file-to-hash.git",
+	"homepage": "https://github.com/dimitarnestorov/file-to-hash/tree/master/packages/file-to-sha384",
+	"author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
+	"license": "MIT",
+	"keywords": [
+		"sha384",
+		"blob",
+		"file",
+		"path",
+		"data",
+		"string",
+		"buffer",
+		"checksum",
+		"hash",
+		"hex",
+		"base64",
+		"crypto"
+	],
+	"scripts": {
+		"prepublishOnly": "yarn run build",
+		"build": "rimraf dist && tsc",
+		"watch": "rimraf dist && tsc -w"
+	},
+	"dependencies": {
+		"blob-to-sha384": "^0.0.1",
+		"data-to-sha384": "^0.0.1",
+		"path-to-sha384": "^0.0.1"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"editor.insertSpaces": false,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+	},
+}

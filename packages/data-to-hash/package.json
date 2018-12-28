@@ -1,0 +1,29 @@
+{
+	"name": "data-to-hash",
+	"version": "0.0.1",
+	"description": "Calculates a given hash for given data",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": "git@github.com:dimitarnestorov/file-to-hash.git",
+	"homepage": "https://github.com/dimitarnestorov/file-to-hash/tree/master/packages/data-to-hash",
+	"author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
+	"license": "MIT",
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"keywords": [
+		"data",
+		"string",
+		"buffer",
+		"checksum",
+		"hash",
+		"hex",
+		"base64",
+		"crypto"
+	],
+	"scripts": {
+		"prepublishOnly": "yarn run build",
+		"build": "rimraf dist && tsc",
+		"watch": "rimraf dist && tsc -w"
+	}
+}

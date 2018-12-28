@@ -1,0 +1,29 @@
+{
+	"name": "blob-to-sha512",
+	"version": "0.0.1",
+	"description": "Calculates a SHA-512 of a given blob",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": "git@github.com:dimitarnestorov/file-to-hash.git",
+	"homepage": "https://github.com/dimitarnestorov/file-to-hash/tree/master/packages/blob-to-sha512",
+	"author": "Dimitar Nestorov <opensource@dimitarnestorov.com>",
+	"license": "MIT",
+	"keywords": [
+		"sha512",
+		"blob",
+		"file",
+		"checksum",
+		"hash",
+		"hex",
+		"base64",
+		"crypto"
+	],
+	"scripts": {
+		"prepublishOnly": "yarn run build",
+		"build": "rimraf dist && tsc",
+		"watch": "rimraf dist && tsc -w"
+	},
+	"dependencies": {
+		"blob-to-hash": "^0.0.1"
+	}
+}
