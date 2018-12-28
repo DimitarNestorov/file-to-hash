@@ -7,6 +7,7 @@
 		"generate-readmes": "node ./config/generateReadmes.js && git add ./packages/**/README.md",
 		"build-blob-test": "parcel build ./tests/assets/blob.html -d ./tests/assets/dist --public-url \"./\"",
 		"test": "yarn run build-all && yarn run build-blob-test && jest --config=./config/jest.config.js",
+		"publish-all": "node ./config/publish.js",
 		"build-all": "node ./config/build.js",
 		"watch-all": "node ./config/watch.js"
 	},
